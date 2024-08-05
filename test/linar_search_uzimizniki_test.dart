@@ -1,4 +1,4 @@
-import 'package:linear_search_uzimizniki/linar_search_uzimizniki.dart';
+import 'package:linear_search_uzimizniki/linear_search_uzimizniki.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -15,7 +15,8 @@ void main() {
 
       // Check that the target value is found at the correct index
       expect(result.index, equals(5));
-      expect(result.timeTaken.inMilliseconds, lessThan(1000)); // Ensure the search is quick
+      expect(result.timeTaken.inMilliseconds,
+          lessThan(1000)); // Ensure the search is quick
     });
 
     test('Value not found in the list', () {
@@ -30,7 +31,8 @@ void main() {
 
       // Check that the target value is not found
       expect(result.index, equals(-1));
-      expect(result.timeTaken.inMilliseconds, lessThan(1000)); // Ensure the search is quick
+      expect(result.timeTaken.inMilliseconds,
+          lessThan(1000)); // Ensure the search is quick
     });
   });
 }

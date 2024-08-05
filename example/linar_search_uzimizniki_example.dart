@@ -1,4 +1,4 @@
-import 'package:linear_search_uzimizniki/linar_search_uzimizniki.dart';
+import 'package:linear_search_uzimizniki/linear_search_uzimizniki.dart';
 
 void main() {
   // Define a list of integers to search within

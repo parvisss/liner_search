@@ -1,8 +1,8 @@
 name: linear_search_uzimizniki
 description: A Dart package for performing linear search operations on lists.
 version: 1.0.0
-repository: https://github.com/yourusername/linear-search-uzimizniki.git
-homepage: https://github.com/yourusername/linear-search-uzimizniki.git
+repository: https://github.com/parvisss/liner_search.git
+homepage: https://github.com/parvisss/liner_search.git
 
 environment:
   sdk: ^3.3.2

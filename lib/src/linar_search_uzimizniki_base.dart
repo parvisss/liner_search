@@ -1,6 +1,6 @@
 // lib/src/linear_search.dart
 
-import 'package:linear_search_uzimizniki/linar_search_uzimizniki.dart';
+import 'package:linear_search_uzimizniki/linear_search_uzimizniki.dart';
 
 /// Provides a utility for linear search operations.
 class LinearSearch {
